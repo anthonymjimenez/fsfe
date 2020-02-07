@@ -5,7 +5,6 @@ var port = 3000;
 
 
 // Serve js files
-app.use('/js', express.static(path.join(__dirname, 'frontend/js/')));
 // Serve css files
 app.use('/css', express.static(path.join(__dirname, 'frontend/css/')));
 

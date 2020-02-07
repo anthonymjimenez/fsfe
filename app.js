@@ -6,7 +6,7 @@ const WebSocketServer = require('ws').Server;
 const server = require('http').createServer(app);
 const wss = new WebSocketServer({ server });
 
-var port = 3000;
+var port = 4000;
 app.use('/js', express.static(path.join(__dirname, '/frontend/js/')));
 
 app.use('/css', express.static(path.join(__dirname, '/frontend/css/')));

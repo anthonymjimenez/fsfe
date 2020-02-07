@@ -86,5 +86,5 @@ wss.broadcast = function broadcast(data) {
 };
 
 
-
+server.listen(port, () => console.log(`App listening on port ${port}!`))
 app.listen(port);

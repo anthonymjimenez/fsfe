@@ -1,4 +1,7 @@
 body {
-background: rgb(39,20,52);
-background: radial-gradient(circle, rgba(39,20,52,1) 17%, rgba(214,12,53,1) 22%, rgba(23,11,140,1) 64%, rgba(73,17,181,1) 70%, rgba(61,11,157,1) 82%);
+background: aliceblue;
+    color: black;
+}
+h4 {
+font-style: italic;
 }
